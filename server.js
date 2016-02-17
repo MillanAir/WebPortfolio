@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 
-
 // index page 
 app.use(express.static('public/'));
 
